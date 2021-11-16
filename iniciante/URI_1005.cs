@@ -10,9 +10,9 @@ namespace uri.iniciante
     {
         static void Main(String[] args)
         {
-            int n1 = int.Parse(Console.ReadLine());
-            int n2 = int.Parse(Console.ReadLine());
-            Console.WriteLine("PROD = " + (n1 * n2));
+            float n1 = float.Parse(Console.ReadLine());
+            float n2 = float.Parse(Console.ReadLine());
+            Console.WriteLine("MEDIA = " + (((n1 * 3.5) + (n2 * 7.5)) / 11).ToString("F5"));
 
 
         }
