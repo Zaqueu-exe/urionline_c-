@@ -10,6 +10,7 @@ namespace uri.iniciante
     {
         static void Main(String[] args)
         {
+            String[] aux = Console.ReadLine().Split(' ');
             float a = float.Parse(aux[0]);
             float b = float.Parse(aux[1]);
             float c = float.Parse(aux[2]);
